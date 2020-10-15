@@ -1,0 +1,14 @@
+@import url(/blocks/places/place/__url/place__url-hover.css);
+
+
+.place__url {
+    margin: 0;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    opacity: 1;
+    color: #fff;
+    font-weight: normal;
+    font-style: normal;
+}
+

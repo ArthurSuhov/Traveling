@@ -1,0 +1,40 @@
+.comments__container {
+    margin: auto;
+    margin-top: 72px;
+    margin-bottom: 102px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1184px;
+    position: relative;
+}
+
+@media screen and (max-width: 1024px){
+    .comments__container{
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .comments__container{
+        max-width: 382px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 66px;
+    }
+}
+
+
+
+@media screen and (max-width: 375px){
+    .comments__container{
+        max-width: 343px;
+        margin-top: 42px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .comments__container{
+        max-width: 288px;
+        margin-top: 34px;
+    }
+}

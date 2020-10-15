@@ -1,0 +1,39 @@
+@import url('../cover/__image/cover__image.css');
+@import url('../cover/__link/cover__link.css');
+@import url('../cover/__subtitle/cover__subtitle.css');
+@import url('../cover/__title/cover__title.css');
+
+
+.cover {
+    position: relative;
+    max-width: 1184px;
+    text-align: center;
+    font-family: Inter, Arial, sans-serif;
+    color: blue;
+    margin: auto;
+    display: flex;
+  }
+
+  @media screen and (max-width: 1024px){
+    .cover{
+        max-width: 1024px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .cover{
+        max-width: 768px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .cover{
+        max-width: 375px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .cover{
+        max-width: 320px;
+    }
+}

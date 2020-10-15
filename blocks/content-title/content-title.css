@@ -1,0 +1,40 @@
+.content-title {
+    margin: auto;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 78px;
+    text-align: center;
+    font-family: Inter, Arial, sans-serif;
+    max-width: 800px;
+}
+
+@media screen and (max-width: 1024px){
+    .content-title{
+        max-width: 928px;
+        font-size: 4.5rem;
+        line-height: 1;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .content-title{
+        max-width: 367px;
+        font-size: 2.3rem;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .content-title{
+        max-width: 330px;
+        font-size: 1.8rem;
+        line-height: 1.3;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .content-title{
+        max-width: 288px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+}

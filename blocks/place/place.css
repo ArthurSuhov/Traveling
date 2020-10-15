@@ -1,0 +1,47 @@
+@import url('../place/__image/place__image.css');
+@import url('../place/__paragraph/place__paragraph.css');
+@import url('../place/__paragraphs/place__paragraphs.css');
+@import url('../place/__title/place__title.css');
+@import url('../place/__url-heading/place__url-heading.css');
+@import url('../place/__url/place__url.css');
+@import url('../place/__url/place__url-hover.css');
+@import url('../place/__website/place__website.css');
+
+
+.place {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-top: 72px;
+    max-width: 984px;
+}
+
+.place:first-child{
+    margin: 0;
+}
+
+@media screen and (max-width: 1024px){
+    .place{
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .place{
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .place{
+        max-width: 375px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .place{
+        max-width: 320px;
+    }
+}

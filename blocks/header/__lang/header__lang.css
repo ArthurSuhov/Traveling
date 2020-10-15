@@ -1,0 +1,28 @@
+@import url('../__lang/_selected/header__lang_selected.css');
+
+.header__lang{
+    text-decoration: none;
+    margin-right: 18px;
+    font-size: 24px;
+    color: white;
+}
+
+.header__lang:hover{
+    opacity: 0.7;
+}
+
+
+
+@media screen and (max-width: 375px){
+    .header__lang{
+        font-size: 18px;
+        line-height: 17px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .header__lang{
+        font-size: 18px;
+        line-height: 17px;
+    }
+}

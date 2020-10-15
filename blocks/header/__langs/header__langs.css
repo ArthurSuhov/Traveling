@@ -1,0 +1,10 @@
+@import url('../__lang/header__lang.css');
+
+
+.header__langs{
+   flex-direction: row;
+   display: flex;
+   list-style-type: none;
+   font-family: 'intern' sans-serif;
+   margin-top: 47px;
+}

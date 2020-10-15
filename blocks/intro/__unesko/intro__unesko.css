@@ -1,0 +1,43 @@
+.intro__unesko {
+    margin: 0;
+    max-width: 383px;                                                                               
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 35px;
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    }
+
+    @media screen and (max-width: 1024px){
+        .intro__unesko{
+            max-width: 383px;
+            font-size: 0.8rem;
+            line-height: 1.5;
+        }
+    }
+
+    @media screen and (max-width: 768px){
+        .intro__unesko{
+            max-width: 343px;
+            font-size: 0.8rem;
+            line-height: 1.5;
+        }
+    }
+
+    @media screen and (max-width: 375px){
+        .intro__unesko{
+            max-width: 343px;
+            font-size: 0.7rem;
+            line-height: 1.7;
+        }
+    }
+
+    @media screen and (max-width: 320px){
+        .intro__unesko{
+            max-width: 288px;
+            font-size: 0.75rem;
+            line-height: 1.7;
+        }
+    }

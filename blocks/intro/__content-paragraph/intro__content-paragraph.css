@@ -1,0 +1,41 @@
+.intro__content-paragraph{
+    margin: 0;
+    max-width: 683px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: Inter, Arial, sans-serif;
+}
+
+@media screen and (max-width: 1024px){
+    .intro__content-paragraph{
+        max-width: 692px;
+        font-size: 0.875rem;
+        line-height: 1.5;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .intro__content-paragraph{
+        max-width: 720px;
+        font-size: 0.85rem;
+        line-height: 1.8;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .intro__content-paragraph{
+        max-width: 342px;
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .intro__content-paragraph{
+        max-width: 288px;
+        font-size: 1rem;
+        line-height: 1.8;
+    }
+}

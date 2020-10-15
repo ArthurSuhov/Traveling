@@ -1,0 +1,46 @@
+.comment__quote {
+    margin: 0;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 48px;
+    font-weight: normal;
+    font-style: normal;
+    max-width: 382px;
+}
+
+@media screen and (max-width: 1024px){
+    .comment__quote{
+        max-width: 296px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .comment__quote{
+        max-width: 382px;
+        order: 1;
+        margin-top: 24px;
+        font-size: 1rem;
+        line-height: 1.5;
+        order: 3;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .comment__quote{
+        max-width: 343px;
+        font-size: 16px;
+        line-height: 23px;
+        margin-top: 24px;
+        order: 3;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .comment__quote{
+        max-width: 288px;
+        line-height: 23px;
+        font-size: 16px;
+        margin-top: 24px;
+        order: 3;
+    }
+}
